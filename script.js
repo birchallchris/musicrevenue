@@ -2,7 +2,7 @@ Papa.parse('musicrevenue_simple.csv', {
     download: true,
     header: true,
     complete: function(results) {
-
+        console.log(results.data);
         const tbody = document.querySelector('#dataTable tbody');
 
         results.data.forEach(row => {
@@ -18,6 +18,7 @@ Papa.parse('musicrevenue_simple.csv', {
             `;
 
             tbody.appendChild(tr);
+            
         });
     }
 });
