@@ -2,6 +2,7 @@ Papa.parse('musicrevenue_simple.csv', {
     download: true,
     header: true,
     complete: function(results) {
+        console.log("running");
         console.log(results.data);
         const tbody = document.querySelector('#dataTable tbody');
 
