@@ -1,6 +1,7 @@
 Papa.parse('musicrevenue_simple.csv', {
     download: true,
     header: true,
+    skipEmptyLines: true,
     complete: function(results) {
         console.log("running");
         console.log(results.data);
