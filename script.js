@@ -21,5 +21,10 @@ Papa.parse('musicrevenue_simple.csv', {
             tbody.appendChild(tr);
             
         });
+    },
+
+    error: function(err) {
+        console.error("FAILED");
+        console.error(err);
     }
 });
