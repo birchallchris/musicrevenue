@@ -1,0 +1,26 @@
+Outlet,ArtistType,Format,RetailPrice,PPM
+self-pressed CD album,independent,Album CD,$9.99,126
+CD Baby,independent,Album CD,$9.99,210
+retail album CD (high end royalty deal),with record label & publishing company,Album CD,$9.99,"1,261"
+retail album CD (low end royalty deal),with record label & publishing company,Album CD,$9.99,"4,204"
+Amazon,with record label & publishing company,Single download,$0.89,"12,640"
+Google Play single track,with record label & publishing company,Single track download,$1.00,"11,398"
+Xbox Music via Tunecore,with record label & publishing company,Single track download,-,"11,489"
+iTunes,with record label & publishing company,Single track download,$0.99,"11,364"
+iTunes via CD Baby ,independent,Single track download,$0.99,"1,286"
+iTunes via TuneCore,independent,Single track download,$0.99,"1,833"
+iTunes via ReverbNation,independent,Single track download,$0.99,"1,850"
+iTunes,with record label & publishing company,Album download,$9.99,"1,126"
+iTunes via ReverbNation,independent,Album download,$9.99,185
+CD Baby,independent,Album download,$9.99,126
+TuneCore,independent,Album download,$9.99,131
+Bandcamp,independent,Album download,$6.73,220
+iTunes Radio via SoundExchange,with record label & publishing company,Stream (Non-Interactive),n/a,"18,947"
+Pandora via SoundExchange,with record label & publishing company,Stream (Non-Interactive),n/a,"23,095"
+Sirius XM ,with record label & publishing company,Stream (Non-Interactive) - Subscription,n/a,"4,373"
+Last fm,with record label & publishing company,Stream (Non-Interactive) - Subscription,n/a,"15,750,000"
+CD Baby,independent,Stream (Interactive),n/a,"138,462"
+Rhapsody,independent,Stream (Interactive),n/a,"138,462"
+Rhapsody,with record label & publishing company,Stream (Interactive),n/a,"865,385"
+Spotify,with record label & publishing company,Stream (Interactive) ,n/a,"1,312,500"
+YouTube via Audiam,with record label & publishing company,Stream (Interactive): Ad Clicks,$6.33,"663,507"
