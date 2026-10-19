@@ -93,6 +93,7 @@ function drawPage(data) {
             <td>${row.PayoutPerStreamUSD}</td>
             <td>${row.MonthlyUsersMillions}</td>
             <td>${row.Type}</td>
+            <td>${row.StreamsForUSMonthlyMinimumWage}</td>
         `;
 
         tbody.appendChild(tr);
