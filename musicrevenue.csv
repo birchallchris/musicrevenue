@@ -1,0 +1,10 @@
+Platform,PayoutPerStreamUSD,MonthlyUsersMillions,Type,StreamsForUSMonthlyMinimumWage
+Spotify,0.0035,760,Freemium,359143
+Apple Music,0.0080,100,Subscription,157125
+YouTube Music,0.0020,125,Freemium,628500
+Amazon Music,0.0045,80,Subscription,279333
+Tidal,0.0120,8,Subscription,104750
+Deezer,0.0060,9,Subscription,209500
+SoundCloud,0.0030,140,Freemium,419000
+Qobuz,0.0180,1,Subscription,69833
+Pandora,0.0013,46,Freemium,966923
