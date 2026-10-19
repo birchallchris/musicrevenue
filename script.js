@@ -16,7 +16,7 @@ Papa.parse('musicrevenue.csv', {
                 <td>${row.PayoutPerStreamUSD}</td>
                 <td>${row.MonthlyUsersMillions}</td>
                 <td>£${row.Type}</td>
-                <td>${row.StreamsForUSMothlyMinimumWage}</td>
+                <td>${row.StreamsForUSMonthlyMinimumWage}</td>
             `;
 
             tbody.appendChild(tr);
