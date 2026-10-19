@@ -1,4 +1,4 @@
-Papa.parse('musicrevenue_simple.csv', {
+Papa.parse('musicrevenue.csv', {
     download: true,
     header: true,
     skipEmptyLines: true,
@@ -9,8 +9,8 @@ Papa.parse('musicrevenue_simple.csv', {
         const values = [];
 
         results.data.forEach(row => {
-            labels.push(row.Outlet);
-            values.push(cleanNumber(row.PPM));
+            labels.push(row.Platform);
+            values.push(cleanNumber(row.StreamsForUSMonthlyMinimumWage));
         });
 
         new Chart(
@@ -20,7 +20,7 @@ Papa.parse('musicrevenue_simple.csv', {
                 data: {
                     labels: labels,
                     datasets: [{
-                        label: 'PPM',
+                        label: 'Streams for US Monthly Minimum Wage',
                         data: values,
                         backgroundColor: '#4e79a7'
                     }]
@@ -31,7 +31,7 @@ Papa.parse('musicrevenue_simple.csv', {
                             type: 'logarithmic',
                             title: {
                                 display: true,
-                                text: 'PPM'
+                                text: 'Streams for US Monthly Minimum Wage'
                             }
                         }
                     }
