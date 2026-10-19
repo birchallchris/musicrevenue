@@ -1,4 +1,4 @@
-Papa.parse('musicrevenue_simple.csv', {
+Papa.parse('musicrevenue.csv', {
     download: true,
     header: true,
     skipEmptyLines: true,
@@ -12,11 +12,11 @@ Papa.parse('musicrevenue_simple.csv', {
             const tr = document.createElement('tr');
 
             tr.innerHTML = `
-                <td>${row.Outlet}</td>
-                <td>${row.ArtistType}</td>
-                <td>${row.Format}</td>
-                <td>£${row.RetailPrice}</td>
-                <td>${row.PPM}</td>
+                <td>${row.Platform}</td>
+                <td>${row.PayoutPerStreamUSD}</td>
+                <td>${row.MonthlyUsersMillions}</td>
+                <td>£${row.Type}</td>
+                <td>${row.StreamsForUSMothlyMinimumWage}</td>
             `;
 
             tbody.appendChild(tr);
