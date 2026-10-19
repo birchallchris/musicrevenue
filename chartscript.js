@@ -28,7 +28,7 @@ Papa.parse('musicrevenue.csv', {
                 options: {
                     scales: {
                         y: {
-                            type: 'logarithmic',
+                            type: 'linear',
                             title: {
                                 display: true,
                                 text: 'Streams for US Monthly Minimum Wage'
