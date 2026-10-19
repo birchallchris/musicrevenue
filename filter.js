@@ -2,7 +2,7 @@ let allData = [];
 let chart = null;
 
 Papa.parse('musicrevenue.csv', {
-    download: true,
+    download: true, 
     header: true,
     skipEmptyLines: true,
 
