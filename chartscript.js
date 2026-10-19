@@ -24,6 +24,17 @@ Papa.parse('musicrevenue_simple.csv', {
                         data: values,
                         backgroundColor: '#4e79a7'
                     }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            type: 'logarithmic',
+                            title: {
+                                display: true,
+                                text: 'PPM'
+                            }
+                        }
+                    }
                 }
             }
         );
