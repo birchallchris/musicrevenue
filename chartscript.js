@@ -10,7 +10,7 @@ Papa.parse('musicrevenue_simple.csv', {
 
         results.data.forEach(row => {
             labels.push(row.Outlet);
-            values.push(Number(row.PPM));
+            values.push(cleanNumber(row.PPM));
         });
 
         new Chart(
@@ -29,3 +29,8 @@ Papa.parse('musicrevenue_simple.csv', {
         );
     }
 });
+function cleanNumber(value) {
+    return Number(
+        String(value).replace(/[^0-9.-]/g, '')
+    );
+}
